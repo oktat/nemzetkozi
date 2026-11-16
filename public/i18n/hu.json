@@ -1,0 +1,4 @@
+{
+  "app.hello": "Helló {{name}}",
+  "app.title": "Fordítás bemutató"
+}
