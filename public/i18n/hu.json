@@ -1,4 +1,6 @@
 {
   "app.hello": "Helló {{name}}",
-  "app.title": "Fordítás bemutató"
+  "app.title": "Fordítás bemutató",
+  "nav.home": "Főoldal",
+  "nav.employee": "Dolgozók"
 }

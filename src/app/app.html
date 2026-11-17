@@ -1,7 +1,15 @@
-<select (change)="selectLanguage($event)">
-  <option value="en">angol</option>
-  <option value="hu">magyar</option>
-</select>
+<div class="header-controls">
+  <nav class="nav main-nav">
+    <a routerLink="home" class="nav-link">{{ 'nav.home' | translate }}</a>
+    <a routerLink="emploee" class="nav-link">{{ 'nav.employee' | translate }}</a>
+  </nav>
+
+  <select (change)="selectLanguage($event)" 
+  class="form-select language-select">
+    <option value="en">angol</option>
+    <option value="hu">magyar</option>
+  </select>
+</div>
 
 <div>
   {{ 'app.hello' | translate:{name} }}

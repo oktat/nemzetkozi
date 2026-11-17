@@ -1,0 +1,37 @@
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+}
+
+.main-nav {
+  position: absolute;
+  left: 50%;
+  /* Az elemet a saját szélességének 
+  felével balra mozdítjuk el. */
+  transform: translateX(-50%);
+}
+
+.language-select {
+  width: auto;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+/* Mobilon a navigáció és a 
+választó egymás alatt legyen */
+@media (max-width: 575.98px) {
+  .header-controls {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .main-nav {
+    position: static;
+    transform: none;
+  }
+}

@@ -1,4 +1,6 @@
 {
   "app.hello": "Hello {{name}}",
-  "app.title": "Translation Demo"
+  "app.title": "Translation Demo",
+  "nav.home": "Home",
+  "nav.employee": "Employee"
 }
